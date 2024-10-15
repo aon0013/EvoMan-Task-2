@@ -1,0 +1,16 @@
+experiment_name = 'generalist_results'
+n_islands = 5            # Number of islands
+npop = 20                # Population size per island
+n_gens = 10              # Number of generations
+mutation_rate = 0.1
+exit_local_optimum = False
+mu = 0                   # Mean for initial population
+sigma = 1                # Standard deviation for initial population
+dom_l = -1               # Lower bound for weights (added)
+dom_u = 1                # Upper bound for weights (added)
+tournament_size = 3
+migration_interval = 5
+migration_size = 2
+migration_type = 'similarity'  # or 'diversity'
+n_crossover_points = 3   # Number of crossover points for n-point crossover
+n_hidden_neurons = 10
